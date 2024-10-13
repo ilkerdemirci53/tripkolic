@@ -1,4 +1,4 @@
-import ProfilePage from "@/containers/ProfilePage/ProfilePage";
+import ProfilePage from "@/components/ProfilePage/ProfilePage";
 
 export default function Home() {
   return <ProfilePage />;
