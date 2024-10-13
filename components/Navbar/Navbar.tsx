@@ -66,23 +66,23 @@ const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">
               <button className="p-1 rounded-full text-gray-800 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                <MdOutlineShoppingCart className="w-8 h-8" />
+                <MdOutlineShoppingCart className="w-6 h-6" />
               </button>
               <div className="ml-3 relative">
-                <div className="flex border border-gray-200 p-2 rounded-full gap-x-2">
+                <div className="flex border border-gray-200 p-2 rounded-full gap-x-1">
                   <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   >
-                    <FaBars className="h-6 w-6" />
+                    <FaBars className="h-4 w-4" />
                   </button>
                   <button className="max-w-xs cursor-default bg-gray-200 p-1 border-none rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                     <Image
-                      className="h-8 w-8 rounded-full"
+                      className="h-6 w-6 rounded-full"
                       src="/avatar.png"
                       alt="User avatar"
-                      width={32}
-                      height={32}
+                      width={24}
+                      height={24}
                     />
                   </button>
                 </div>
@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
-              <FaBars className="h-6 w-6" />
+              <FaBars className="h-4 w-4" />
             </button>
           </div>
         </div>
