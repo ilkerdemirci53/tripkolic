@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaBars, FaShoppingCart } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 
